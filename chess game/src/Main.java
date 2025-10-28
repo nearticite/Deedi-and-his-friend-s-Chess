@@ -2,7 +2,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        ChessCases[][] board = new ChessCases[8][8];
+        final int boardSize = 7;
+
+        ChessCases[][] board = new ChessCases[boardSize][boardSize];
 
 
     }
